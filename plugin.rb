@@ -70,7 +70,7 @@ end
 
 ## Styles
 #  Variables
-# register_asset("stylesheets/common/foundation/variables.scss", :variables)
+register_asset("stylesheets/common/foundation/variables.scss", :variables)
 
 #  Media-queried rules for fontsizes
 #  NOTE: Helps reduce the line count in module stylesheets
