@@ -22,31 +22,31 @@
     margin-right: 0;
 
     > a {
-      border-top: 1px solid $gray-lighter-SP;
-      border-bottom: 1px solid $gray-lighter-SP;
-      color: $gray-text-SP;
-      font-weight: $font-weight-medium-bold-SP;
+      border-top: 1px solid $gray-lighter-BR;
+      border-bottom: 1px solid $gray-lighter-BR;
+      color: $gray-text-BR;
+      font-weight: $font-weight-medium-bold-BR;
     }
 
     &:first-of-type {
       > a {
-        border-left: 1px solid $gray-lighter-SP;
-        border-top-left-radius: $border-radius-default-SP;
-        border-bottom-left-radius: $border-radius-default-SP;
+        border-left: 1px solid $gray-lighter-BR;
+        border-top-left-radius: $border-radius-default-BR;
+        border-bottom-left-radius: $border-radius-default-BR;
       }
     }
 
     &:last-of-type {
       > a {
-        border-right: 1px solid $gray-lighter-SP;
-        border-top-right-radius: $border-radius-default-SP;
-        border-bottom-right-radius: $border-radius-default-SP;
+        border-right: 1px solid $gray-lighter-BR;
+        border-top-right-radius: $border-radius-default-BR;
+        border-bottom-right-radius: $border-radius-default-BR;
       }
     }
 
     &.active > a,
     > a.active {
-      border-color: $red-SP;
+      border-color: $red-BR;
     }
   }
 }
@@ -55,26 +55,26 @@
 // --------------------------------------------------
 
 .nav-stacked {
-  border-radius: $border-radius-default-SP;
+  border-radius: $border-radius-default-BR;
 
   > li {
     border: none;
 
     > a {
-      border: 1px solid $gray-lighter-SP;
+      border: 1px solid $gray-lighter-BR;
       border-bottom: none;
-      color: $gray-text-SP;
+      color: $gray-text-BR;
     }
 
     &:last-of-type {
       > a {
-        border-bottom: 1px solid $gray-lighter-SP;
+        border-bottom: 1px solid $gray-lighter-BR;
       }
     }
 
     &.active {
       > a {
-        border: 1px solid $red-SP;
+        border: 1px solid $red-BR;
       }
 
       + script + script + li {
@@ -88,7 +88,7 @@
   .active > a,
   .active .fa-chevron-right {
     color: #fff;
-    background-color: $red-SP; // 0527: would orig $quearternary work?
+    background-color: $red-BR; // 0527: would orig $quearternary work?
   }
 
   .count {

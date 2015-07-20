@@ -5,7 +5,7 @@
 }
 
 .topic-list {
-  border-top: 1px solid $gray-lighter-SP;
+  border-top: 1px solid $gray-lighter-BR;
 
   // SP custom rule
   thead th { // this can't be just 'th' because then the category headers on the Categories page would be hidden
@@ -16,7 +16,7 @@
   > tbody > tr {
     &.category-description {
       td {
-        color: $gray-text-SP;
+        color: $gray-text-BR;
       }
     }
   }
@@ -33,7 +33,7 @@
 }
 
 .category-list-item {
-  // SP custom rule
+  // BR custom rule
   td {
     border-bottom: none !important; // reset back for Categories page
   }

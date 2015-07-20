@@ -26,7 +26,7 @@
 
   .icons {
     .icon {
-      color: $gray-light-SP;
+      color: $gray-light-BR;
       border: 1px solid transparent; // prevent "flash of rounded bottom corners" as dropdown is opening
       transition: background-color 167ms ease-out; // align transition with dropdown menu fadein transition
 
@@ -46,7 +46,7 @@
 
       &:hover {
         border: 1px solid #fff; // prevent "flash of rounded bottom corners" as dropdown is opening
-        color: $gray-sitepoint-header-bg-SP;
+        color: $gray-sitepoint-header-bg-BR;
         background-color: #fff;
       }
 

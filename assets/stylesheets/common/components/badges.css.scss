@@ -6,14 +6,14 @@
   i.fa {
     line-height: 0; // ensure the icon doesn't increase the height of its inline container element (e.g. in the extra-info in topic page heading, or icons in hamburger header menu causing broken layout)
 
-    // SP custom rule
+    // BR custom rule
     &.fa-caret-right,
     &.fa-caret-down { // drowdown in expanded state
       font-size: 18px; // dropdown caret
       vertical-align: -2px;
     }
 
-    // SP custom rule
+    // BR custom rule
     &.fa-group {
       font-size: 14px;
       vertical-align: -1px;
@@ -46,7 +46,7 @@
 }
 
 .badge-category {
-  @include border-radius-all($border-radius-default-SP);
+  @include border-radius-all($border-radius-default-BR);
   min-width: 80px;
   text-align: center;
 }
@@ -59,13 +59,13 @@
 .badge-category-bg {
   height: 13px;
   width: 12px;
-  @include border-radius-all($border-radius-default-SP);
+  @include border-radius-all($border-radius-default-BR);
 }
 
 .badge-notification {
   &.new-posts, &.unread-posts, &.unread, &.unread-private-messages {
-    background-color: $red-SP;
-    border-color: $red-SP;
+    background-color: $red-BR;
+    border-color: $red-BR;
     color: white !important;
   }
 }

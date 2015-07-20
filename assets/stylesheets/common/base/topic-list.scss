@@ -20,7 +20,7 @@
 }
 
 .contents .topic-list {
-  border: 1px solid $gray-lighter-SP;
+  border: 1px solid $gray-lighter-BR;
 
   tr.selected td {
     &:nth-of-type(1), &.border--category {
@@ -30,7 +30,7 @@
   }
 
   th, td {
-    border-color: $gray-lighter-SP !important; // Override inline style
+    border-color: $gray-lighter-BR !important; // Override inline style
     border-style: solid;
     border-width: 0 0 1px;
 
@@ -45,13 +45,13 @@
       padding: 6px;
       font-size: 12px;
       font-weight: bold;
-      white-space: nowrap;
+      white-BRace: nowrap;
       display: inline-block;
       line-height: 1;
     }
 
     .tagger-tags-view {
-      color: $gray-text-SP;
+      color: $gray-text-BR;
     }
   }
 
@@ -76,7 +76,7 @@
   }
 
   .avatar.latest {
-    @include box-shadow(0 0 0 1px $blue-SP); // don't use inset - makes some avatars not receive the border (e.g. ralphm's photo from gravatar)
+    @include box-shadow(0 0 0 1px $blue-BR); // don't use inset - makes some avatars not receive the border (e.g. ralphm's photo from gravatar)
   }
 }
 
@@ -87,8 +87,8 @@
 }
 
 ol.category-breadcrumb li {
-  @include border-radius-all($border-radius-default-SP); // Border radius on all categories
-  border: 1px solid $gray-lighter-SP;                    // Border around all categories dropdown
+  @include border-radius-all($border-radius-default-BR); // Border radius on all categories
+  border: 1px solid $gray-lighter-BR;                    // Border around all categories dropdown
   overflow: hidden;                                      // so that rounded corners are not overflown
 
   > .badge-category {

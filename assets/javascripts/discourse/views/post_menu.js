@@ -30,12 +30,12 @@ Discourse.PostMenuView.reopen({
 
     var reply_count = post.get('reply_count');
 
-    /* SP */ buffer.push("<button class='show-replies btn' data-action='replies'>");
+    /* BR */ buffer.push("<button class='show-replies btn' data-action='replies'>");
 
     buffer.push("<span class='badge-posts'>" + reply_count + "</span>");
     buffer.push(I18n.t("post.has_replies", { count: reply_count }));
 
-    /* SP */ var icon = (this.get('post.replies.length') > 0) ? 'fa-caret-up' : 'fa-caret-down';
+    /* BR */ var icon = (this.get('post.replies.length') > 0) ? 'fa-caret-up' : 'fa-caret-down';
 
     return buffer.push("<i class='fa " + icon + "'></i></button>");
   },
@@ -44,7 +44,7 @@ Discourse.PostMenuView.reopen({
   buttonForReply: function() {
     if (!this.get('controller.model.details.can_create_post')) return;
 
-    /* SP */ var options = {className: 'create btn'};
+    /* BR */ var options = {className: 'create btn'};
 
     if(!Discourse.Mobile.mobileView) {
       options.textLabel = 'topic.reply.title';

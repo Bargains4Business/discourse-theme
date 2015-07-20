@@ -2,14 +2,14 @@
 @import "common/foundation/mixins";
 
 .btn {
-  @include border-radius-all($border-radius-default-SP);
+  @include border-radius-all($border-radius-default-BR);
 }
 
 .btn-primary { // The red ones :P
-  background-color: $red-SP;
+  background-color: $red-BR;
   color: #fff;
 
   &:hover {
-    background-color: $red-darker-SP;
+    background-color: $red-darker-BR;
   }
 }

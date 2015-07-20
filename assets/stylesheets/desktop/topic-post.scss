@@ -27,21 +27,21 @@
 
 nav.post-controls {
   .show-replies { //'2 Replies' button in expanded mode
-    color: $gray-sitepoint-header-SP;
+    color: $gray-sitepoint-header-BR;
     border-radius: 0;
 
     span.badge-posts {
-      color: $gray-sitepoint-header-SP;
+      color: $gray-sitepoint-header-BR;
       font-size: inherit;
     }
   }
 
   button.create { // reply button
-    background-color: $red-SP;
+    background-color: $red-BR;
     color: #fff;
 
     &:hover {
-      background-color: $red-darker-SP;
+      background-color: $red-darker-BR;
     }
   }
 }
@@ -68,24 +68,24 @@ nav.post-controls {
   }
 
   .quote .title, blockquote, .onebox, .onebox-result {
-    border-left: 3px solid $red-SP;
+    border-left: 3px solid $red-BR;
   }
 }
 
 .bottom-round nav.post-controls .show-replies { //'2 Replies' button in default mode
   color: #fff;
-  background-color: $gray-sitepoint-header-SP;
-  border-bottom-left-radius: $border-radius-default-SP;
-  border-bottom-right-radius: $border-radius-default-SP;
-  border-top-left-radius: $border-radius-default-SP;
-  border-top-right-radius: $border-radius-default-SP;
+  background-color: $gray-sitepoint-header-BR;
+  border-bottom-left-radius: $border-radius-default-BR;
+  border-bottom-right-radius: $border-radius-default-BR;
+  border-top-left-radius: $border-radius-default-BR;
+  border-top-right-radius: $border-radius-default-BR;
 
   .badge-posts {
     color: #fff;
   }
 
   &:hover {
-    background-color: $gray-text-SP;
+    background-color: $gray-text-BR;
 
     .badge-posts {
       color: #fff;
@@ -94,11 +94,11 @@ nav.post-controls {
 }
 
 .topic-map {
-  background-color: $gray-bg-SP;
+  background-color: $gray-bg-BR;
 
   h4 {
-    color: $gray-sitepoint-header-SP;
-    font-weight: $font-weight-medium-bold-SP;
+    color: $gray-sitepoint-header-BR;
+    font-weight: $font-weight-medium-bold-BR;
     margin-bottom: 10px;
   }
 
@@ -125,7 +125,7 @@ nav.post-controls {
     }
 
     i { // SP custom rule
-      color: $gray-sitepoint-header-SP; // since we have icons rather then texts in headings (similar to topic list table)
+      color: $gray-sitepoint-header-BR; // since we have icons rather then texts in headings (similar to topic list table)
     }
   }
 
@@ -138,12 +138,12 @@ nav.post-controls {
     margin-right: 15px;
 
     .btn {
-      background-color: $gray-sitepoint-header-SP;
+      background-color: $gray-sitepoint-header-BR;
       color: #fff;
       padding: 0 10px;
 
       &:hover {
-        background-color: $gray-text-SP;
+        background-color: $gray-text-BR;
         color: #fff;
       }
 
@@ -163,7 +163,7 @@ nav.post-controls {
 }
 
 span.post-count {
-  background: $red-SP;
+  background: $red-BR;
   color: #fff;
   opacity: 1;
 }
@@ -187,7 +187,7 @@ span.post-count {
 .extra-info {
   &.has-category h1, h1 {
     margin: 0 0 1px 0;
-    color: $gray-lighter-SP;
+    color: $gray-lighter-BR;
   }
 
   .topic-statuses {margin-top: -2px;}
@@ -247,7 +247,7 @@ span.post-count {
 
 .quote { /* quotes with attribution */
   .title {
-    border-left: 3px solid $red-SP;
+    border-left: 3px solid $red-BR;
   }
 }
 
@@ -300,7 +300,7 @@ span.post-count {
 
 .read_restricted .gutter:before {
   font-family: 'FontAwesome';
-  color: $gray-lighter-SP;
+  color: $gray-lighter-BR;
 //   content: "\f023";
   content: $fa-var-eye-slash; // eye-slash icon \f070
   font-size: 45px;

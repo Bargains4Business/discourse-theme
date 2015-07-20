@@ -16,13 +16,13 @@
       <ul>
         <li class='heading row'>
           {{resultType.name}}
-          {{! SP }}
+          {{! BR }}
           <div class='no-results'>
             {{#if resultType.more}}
               <a href='#' class='filter' {{action "moreOfType" resultType.type bubbles=false}}>{{i18n "show_more"}} {{fa-icon "chevron-down"}}</a>
             {{/if}}
           </div>
-          {{! /SP }}
+          {{! /BR }}
         </li>
         {{view 'search-results-type' type=resultType.type displayType=resultType.displayType content=resultType.results}}
       </ul>
