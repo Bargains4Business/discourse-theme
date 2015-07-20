@@ -8,14 +8,14 @@
   }
 
   .header-link {
-    color: $gray-sitepoint-header-BR;
+    color: #666666;
     display: inline-block;
     font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-right: 20px;
     margin-top: 11px;
 
     &:hover {
-      color: #fff;
+      color: #D61B34;
     }
   }
 }
