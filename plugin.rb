@@ -58,12 +58,11 @@ after_initialize do
       header: header,
       mobile_header: header,
       enabled: true,
-      user_id: User.first.id,
-      head_tag: head_tag
+      user_id: User.first.id
     })
     # cleanup old customizations
     SiteCustomization.where(name: bikeroar_site_customization.name).
-      where.not(id: sitepoint_site_customization.id).
+      where.not(id: bikeroar_site_customization.id).
       delete_all
   end
 end
