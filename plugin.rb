@@ -119,15 +119,15 @@ register_asset "javascripts/discourse/templates/header.hbs"
 
 #  item colors
 #  reset of badges back to inline display in hamburger menu
-register_asset "stylesheets/common/base/header.scss"
+# register_asset "stylesheets/common/base/header.scss"
 
 #  expand header to full viewport width
 #  styling of custom links and logo
-register_asset "stylesheets/desktop/header.scss", :desktop
+# register_asset "stylesheets/desktop/header.scss", :desktop
 
 #  reduced paddings and icon widths
 #  SP site links hidden
-register_asset "stylesheets/mobile/header.scss", :mobile
+# register_asset "stylesheets/mobile/header.scss", :mobile
 
 
 #### Categories Page Table [http://discourse.vim]

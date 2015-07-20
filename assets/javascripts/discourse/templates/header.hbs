@@ -92,16 +92,14 @@
       {{/if}}
     </div>
 
-    {{#unless showExtraInfo}}
-      <div class="header-links-wrapper clearfix">
+    {{#if showExtraInfo}}
+        {{header-extra-info topic=topic}}
+      {{else}}
+      <div class="header-links-wrapper mob-hide clearfix">
         <a class="header-link" target="_blank" href="http://www.bikeroar.com/expert-advice" tabindex="2">Articles &amp; Tips</a>
         <a class="header-link" target="_blank" href="http://www.bikeroar.com/products" tabindex="3">Products</a>
         <a class="header-link" target="_blank" href="http://www.bikeroar.com/stores" tabindex="4">Find a Bike Shop</a>
       </div>
-    {{/unless}}
-
-    {{#if showExtraInfo}}
-      {{header-extra-info topic=topic}}
     {{/if}}
 
   </div>
